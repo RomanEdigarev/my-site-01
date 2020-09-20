@@ -1,15 +1,31 @@
 .btn {
-    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    max-width: 200px;
     text-decoration: none;
     text-transform: uppercase;
     background-color: transparent;
     padding: 10px;
-    border: #ffffff solid 1px;
     border-radius: 4px;
 }
 
-.btn:hover {
+.btnForDark {
+    color: #ffffff;
+    border: #ffffff solid 1px;
+}
+
+.btnForLight {
+    color: #1c2237;
+    border: #1c2237 solid 1px;
+}
+
+.btnForDark:hover {
     color: #f00946;
     background-color: #ffffff;
+    transition: background-color 0.1s ease-out;
+}
+.btnForLight:hover {
+    color: #f00946;
+    background-color: #1c2237;
     transition: background-color 0.1s ease-out;
 }
