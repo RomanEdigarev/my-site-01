@@ -3,6 +3,7 @@
     flex-direction: row;
     color: #ffffff;
     justify-content: space-between;
+    align-items: center;
 }
 
 .navbarMenu__items {
@@ -13,5 +14,5 @@
 
 .navbarMenu__items:hover {
     color: #f00946;
-    transition:  all 0.3s ease-out;
+    transition:  all 0.2s ease-out;
 }
