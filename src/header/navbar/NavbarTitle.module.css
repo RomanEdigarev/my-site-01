@@ -1,0 +1,14 @@
+.navbarTitle__container {
+    display: flex;
+    align-items: center;
+}
+
+.navbarTitle {
+    font-size: 2rem;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.navbarTitle__icon {
+    margin-right: 10px;
+}

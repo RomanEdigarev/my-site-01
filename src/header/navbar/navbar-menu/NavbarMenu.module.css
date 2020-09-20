@@ -1,0 +1,17 @@
+.navbarMenu {
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    justify-content: space-between;
+}
+
+.navbarMenu__items {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.navbarMenu__items:hover {
+    color: #f00946;
+    transition:  all 0.3s ease-out;
+}
