@@ -17,3 +17,24 @@ export const blockDataTwo = {
     image : '/images/svg-7.svg',
     altImg : 'asdf'
 }
+
+export const blockDataThree = {
+    titleText : '100% SECURE',
+    subtitleText : 'Stay protected 24/7 anywhere anytime',
+    text: 'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
+    btnText: 'Learn More',
+    image : '/images/svg-5.svg',
+    altImg : 'asdf'
+}
+
+export const blockDataFour = {
+    titleText : 'DATA ANALYTICS',
+    subtitleText : 'Every transaction is stored on our secure cloud database',
+    text: 'Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.',
+    btnText: 'Sign Up Now',
+    image : '/images/svg-8.svg',
+    altImg : 'asdf'
+}
+
+
+

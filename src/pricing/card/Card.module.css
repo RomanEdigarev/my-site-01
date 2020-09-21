@@ -1,0 +1,47 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 85%;
+    width: 30%;
+    border-radius: 6px;
+    color: #ffffff;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: all 0.2s ease-out;
+}
+
+.cardDark {
+    background-color: #242424;
+}
+
+.cardBlue {
+    background-color: #0660E9;
+}
+
+.card__name {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.card__price {
+    font-size: 58px;
+    font-weight: 600;
+}
+
+.card__subtitle {
+    margin-bottom: 25px;
+    font-size: 12px;
+}
+
+.card__description {
+    text-align: center;
+}
+
+.card__description ul {
+    margin-bottom: 25px;
+    list-style-type: none;
+}

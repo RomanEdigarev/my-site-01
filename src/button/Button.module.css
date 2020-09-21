@@ -8,6 +8,9 @@
     padding: 10px;
     border-radius: 4px;
 }
+.btn:hover {
+    cursor: pointer;
+}
 
 .btnForDark {
     color: #ffffff;
