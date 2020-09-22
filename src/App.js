@@ -6,20 +6,20 @@ import Block from "./block/Block";
 import {blockDataFour, blockDataOne, blockDataThree, blockDataTwo} from "./block/dataBlocks/DataBlocks";
 import Pricing from "./pricing/Pricing";
 import Footer from "./footer/Footer";
+import Home from "./pages/Home";
 
 
 function App() {
-  return (
-    <Router>
-      <Header/>
-      <Block isDark={true} blockData={blockDataOne}/>
-      <Block isDark={false} blockData={blockDataTwo}/>
-      <Block isDark={true} blockData={blockDataThree}/>
-      <Pricing/>
-      <Block isDark={true} blockData={blockDataFour}/>
-      <Footer/>
-    </Router>
-  );
+    return (
+        <Router>
+            <Header/>
+            <Route path={'/'} exact><Home/></Route>
+            <Route path={'/services'}><Block isDark={true} blockData={blockDataThree}/></Route>
+            <Route path={'/products'}><Pricing/></Route>
+            <Route path={'/sign-up'}><Block isDark={false} blockData={blockDataTwo}/></Route>
+            <Footer/>
+        </Router>
+    );
 }
 
 export default App;
